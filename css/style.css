@@ -9,7 +9,7 @@ body{
 }
 .container{
   width: 80%;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -30,6 +30,8 @@ header{
  left: 0;
  right: 0;
  z-index: 999;
+ border-bottom:1px solid lightgrey;
+ background-color: white;
 }
 
 .head li{
@@ -37,6 +39,8 @@ header{
   display: inline;
   margin: 0 20px;
 }
+
+/* TODO: HOVER DA AGGIUNGERE */
 
 .head a{
   text-decoration: none;
@@ -70,5 +74,5 @@ header{
 
 /* main */
 main{
-  
+
 }
