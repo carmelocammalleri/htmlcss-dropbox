@@ -102,9 +102,6 @@ main{
   margin: 30px 0;
 }
 
-.text :last-child{
-}
-
 .box-img-text{
   justify-content: space-between;
 }
@@ -120,7 +117,7 @@ main{
   padding-bottom: 10px ;
 }
 
-.text i{
+. .box-img-text .text .fa-solid.fa-arrow-down{
   position: absolute;
   left: 10px;
   bottom: -30px;
@@ -143,10 +140,30 @@ main{
 
 /* section-list */
 .section-list{
-  padding-top: 100PX;
+  padding-top: 100px;
+}
+
+.title-box{
+  padding: 50px 0;
 }
 
 .section-list h2{
   font-size: 2.5rem;;
-  padding: 60px 0;
+  margin-bottom: 30px;
+}
+
+.check-box i{
+  margin-right: 5px;
+}
+
+.fatturazione{
+  margin-right: 30px;
+}
+
+.fatturazione.bluesky i{
+  color: #0061FF;
+}
+
+.fatturazione.grey i{
+  color: #D0D0D3;
 }
