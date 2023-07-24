@@ -91,23 +91,34 @@ main{
   padding-right: 300px;
 }
 
-.jumbotron .text span{
-  display: inline-block;
+.jumbotron .text .btn.blue{
+  display: block;
   margin: 30px 0;
+}
+
+.text :last-child{
 }
 
 .box-img-text{
   justify-content: space-between;
-
 }
 
 .text{
   width: 30%;
   align-items: center;
+  padding-bottom: 50px;
 }
+
 .text p{
   font-size: .9rem;
   padding-bottom: 10px ;
+}
+
+.text i{
+  position: absolute;
+  left: 10px;
+  bottom: -30px;
+  font-size: 2.5rem;
 }
 
 .image{
@@ -118,4 +129,8 @@ main{
 
 .image img{
   width: 100%;
+}
+
+.text .small{
+  font-size: .9rem;
 }
