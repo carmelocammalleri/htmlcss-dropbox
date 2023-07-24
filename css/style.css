@@ -26,7 +26,10 @@ body{
 
 /* header */
 header{
-
+ position: fixed;
+ left: 0;
+ right: 0;
+ z-index: 999;
 }
 
 .head li{
@@ -47,21 +50,25 @@ header{
   font-size: .9rem;
 }
 
-.left{
+.box-left{
   
 }
 
-.right{
+.box-right{
   align-items: center;
 }
 
-.btn{
+.btn a{
   cursor: pointer;
   padding: 6px 10px;
-
 }
 
-.right .btn.blue{
+.box-right .btn.blue a{
   background-color: #0061FF;
   color: white;
+}
+
+/* main */
+main{
+  
 }
