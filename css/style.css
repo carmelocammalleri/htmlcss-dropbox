@@ -77,11 +77,17 @@ header{
 /* main */
 main{
   padding: 40px 0;
-  background-color: #B4D0E7;
 }
 
+
+/* jumbo */
 .jumbotron{
   position: relative;
+}
+
+.jumbo-section{
+  background-color: #B4D0E7;
+  padding-bottom: 40px;
 }
 
 .jumbotron h1{
@@ -133,4 +139,14 @@ main{
 
 .text .small{
   font-size: .9rem;
+}
+
+/* section-list */
+.section-list{
+  padding-top: 100PX;
+}
+
+.section-list h2{
+  font-size: 2.5rem;;
+  padding: 60px 0;
 }
