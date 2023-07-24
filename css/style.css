@@ -13,6 +13,8 @@
 .debug{
   width: 100%;
   height: 100px;
+  background-color: rgb(250, 209, 134);
+  border: 1px solid black;
 }
 
 .flex{
