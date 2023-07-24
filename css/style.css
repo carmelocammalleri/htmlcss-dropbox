@@ -286,3 +286,7 @@ main{
   color: black;
   border: 1px solid black;
 }
+
+.operations .card img{
+  width: 100%;
+}
