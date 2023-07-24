@@ -9,6 +9,12 @@ body{
 }
 .container{
   width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container-small{
+  width: 80%;
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -285,6 +291,15 @@ main{
   text-decoration: none;
   color: black;
   border: 1px solid black;
+}
+
+.operations{
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card{
+  width: calc(100% / 3.1);
 }
 
 .operations .card img{
