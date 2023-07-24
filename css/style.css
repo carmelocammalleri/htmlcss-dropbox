@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Open Sans', sans-serif;
+}
 .container{
   width: 80%;
   max-width: 1200px;
@@ -22,3 +25,43 @@
 }
 
 /* header */
+header{
+
+}
+
+.head li{
+  list-style: none;
+  display: inline;
+  margin: 0 20px;
+}
+
+.head a{
+  text-decoration: none;
+  color: black;
+}
+
+.head{
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-size: .9rem;
+}
+
+.left{
+  
+}
+
+.right{
+  align-items: center;
+}
+
+.btn{
+  cursor: pointer;
+  padding: 6px 10px;
+
+}
+
+.right .btn.blue{
+  background-color: #0061FF;
+  color: white;
+}
