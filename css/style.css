@@ -42,7 +42,8 @@ header{
 
 /* TODO: HOVER DA AGGIUNGERE */
 
-.head a{
+.head a,
+.jumbotron a{
   text-decoration: none;
   color: black;
 }
@@ -67,7 +68,8 @@ header{
   padding: 6px 10px;
 }
 
-.box-right .btn.blue a{
+.box-right .btn.blue a,
+.jumbotron .text .btn.blue a{
   background-color: #0061FF;
   color: white;
 }
@@ -83,11 +85,25 @@ main{
   padding: 20px 0;
   padding-right: 300px;
 }
+.jumbotron .text span{
+  display: inline-block;
+  margin: 20px 0;
+}
 
 .box-img-text{
-  justify-content: center;
+  justify-content: space-between;
+
+}
+
+.text{
+  width: 30%;
+  align-items: center;
+}
+
+.image{
+  width: 70%;
 }
 
 .image img{
-  width: 50%;
+  width: 100%;
 }
