@@ -184,7 +184,7 @@ main{
 }
 
 .user{
-  border: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
   width: 100%;
   text-align: center;
   padding: 10px;
@@ -254,4 +254,35 @@ main{
 .top .info h4{
   padding: 20px 0;
   font-size: .9rem;
+}
+
+/* section-partner */
+.section-partner{
+  flex-wrap: wrap;
+  padding-top: 100px;
+}
+
+.partner{
+  width: 60%;
+}
+
+.partner img{
+  width: 100%;
+}
+
+.partner.text{
+  width: 40%;
+  padding: 30px;
+}
+
+.partner.text h2,
+.partner.text p{
+  padding-bottom: 40px;
+}
+
+.btn.grey a{
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
 }
