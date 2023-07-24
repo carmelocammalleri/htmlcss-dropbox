@@ -56,7 +56,7 @@ header{
 }
 
 .box-left{
-  
+  align-items: center;
 }
 
 .box-right{
@@ -77,17 +77,23 @@ header{
 /* main */
 main{
   padding: 40px 0;
+  background-color: #B4D0E7;
+}
+
+.jumbotron{
+  position: relative;
 }
 
 .jumbotron h1{
   font-size: 3rem;
   font-weight: 800;
-  padding: 20px 0;
+  padding: 50px 0;
   padding-right: 300px;
 }
+
 .jumbotron .text span{
   display: inline-block;
-  margin: 20px 0;
+  margin: 30px 0;
 }
 
 .box-img-text{
@@ -99,9 +105,15 @@ main{
   width: 30%;
   align-items: center;
 }
+.text p{
+  font-size: .9rem;
+  padding-bottom: 10px ;
+}
 
 .image{
   width: 70%;
+  position: absolute;
+  right: 0;
 }
 
 .image img{
