@@ -117,7 +117,7 @@ main{
   padding-bottom: 10px ;
 }
 
-. .box-img-text .text .fa-solid.fa-arrow-down{
+.box-img-text .text .fa-solid.fa-arrow-down{
   position: absolute;
   left: 10px;
   bottom: -30px;
