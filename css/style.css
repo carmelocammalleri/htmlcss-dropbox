@@ -328,7 +328,7 @@ h2{
   padding-bottom: 50px;
 }
 
-.card h3{
+h3{
   font-size: 1.5rem;
   padding-bottom: 30px;
 }
@@ -355,7 +355,6 @@ h2{
 
 .square{
   width: calc(100vw / 3);
-  border: 1px solid black;
 }
 
 .square.brand{
@@ -478,3 +477,24 @@ h2{
 /* ----------/main---------- */
 
 /* ----------footer---------- */
+footer{
+  background-color: black;
+  color: white;
+}
+
+.foot{
+  justify-content: space-between;
+}
+
+.col{
+  margin: 100px 0;
+}
+
+.menu-foot{
+  list-style: none;
+  margin: 20px 0;
+}
+
+.menu-foot li{
+  margin: 10px 0;
+}
