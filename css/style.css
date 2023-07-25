@@ -479,7 +479,7 @@ h3{
 
 .ask span{
   font-weight: bold;
-  margin-right: 320px;
+  margin-right: 330px;
   margin-bottom: 20px;
 }
 
@@ -526,13 +526,18 @@ footer{
   margin: 50px 0;
 }
 
+.col li a{
+  text-decoration: none;
+  color: white;
+}
+
 .menu-foot{
   list-style: none;
   margin: 20px 0;
 }
 
 .menu-foot li{
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 .foot .line{
