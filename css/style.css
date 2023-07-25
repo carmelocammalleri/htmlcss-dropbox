@@ -44,9 +44,12 @@ header{
   list-style: none;
   display: inline;
   margin: 0 20px;
+  padding-bottom: 15px;
 }
 
-/* TODO: HOVER DA AGGIUNGERE */
+.head nav ul li:hover{
+  border-bottom: 3px solid rgba(0, 0, 0, 0.295);
+}
 
 .head a,
 .jumbotron a{
