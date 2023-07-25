@@ -108,7 +108,7 @@ main{
   font-size: 3rem;
   font-weight: 800;
   padding: 50px 0;
-  padding-right: 300px;
+  padding-right: 100px;
 }
 
 .jumbotron .text .btn.blue{
@@ -369,7 +369,7 @@ h3{
 
 .logos img{
   width: 100px;
-  filter: invert(100%) sepia(34%) saturate(837%) hue-rotate(197deg) brightness(108%) contrast(101%);
+  filter: invert(1);
 }
 
 .designit{
@@ -429,16 +429,16 @@ h3{
   font-size: .9rem;
 }
 
+/* promo */
 .promo{
   width: 100%;
-  padding: 90px 0;
+  padding: 110px 0;
   background-color: #B4D0E7;
 }
 
 .slogan{
   justify-content: space-between;
   align-items: start;
-  height: 100%;
 }
 
 .slogan h2{
@@ -454,6 +454,7 @@ h3{
 /* ask */
 .requests{
   margin-bottom: 100px;
+  padding-top: 100px;
 }
 
 .requests h2{
@@ -518,3 +519,4 @@ footer{
   margin-right: 5px;
   margin-bottom: 30px;
 }
+/* ----------/footer---------- */
