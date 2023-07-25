@@ -448,3 +448,25 @@ h2{
   border: none;
   padding: 10px 50px;
 }
+
+/* ask */
+.requests h2{
+  margin: 50px 0;
+}
+.ask{
+  padding: 30px 0;
+}
+
+.ask.top{
+  border-top: 1px solid #D0D0D3;
+}
+
+.ask.middle{
+  border-width: 1px 0px 1px 0;
+  border-style: solid;
+  border-color: #D0D0D3;
+}
+
+.ask.bottom{
+  border-bottom: 1px solid #D0D0D3;
+}
