@@ -142,7 +142,7 @@ main{
 }
 
 .image{
-  width: 70%;
+  width: 69%;
   position: relative;
 }
 
@@ -150,7 +150,7 @@ main{
   width: 100%;
   position: absolute;
   right: 0px;
-  bottom: -135px;
+  bottom: -130px;
 }
 
 .text .small{
@@ -376,6 +376,10 @@ h3{
 .logos img{
   width: 100px;
   filter: invert(1);
+}
+
+.logos:active{
+  border: 15px solid rgba(255, 255, 255, 0.404);
 }
 
 .designit{
