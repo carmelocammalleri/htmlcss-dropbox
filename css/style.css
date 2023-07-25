@@ -4,9 +4,14 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   font-family: 'Open Sans', sans-serif;
 }
+
 .container{
   width: 80%;
   max-width: 1200px;
@@ -40,6 +45,14 @@ header{
  background-color: white;
 }
 
+.head{
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-size: .9rem;
+  min-width: 1000px;
+}
+
 .head li{
   list-style: none;
   display: inline;
@@ -55,13 +68,6 @@ header{
 .jumbotron a{
   text-decoration: none;
   color: black;
-}
-
-.head{
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  font-size: .9rem;
 }
 
 .box-left{
@@ -142,7 +148,7 @@ main{
 }
 
 .image{
-  width: 69%;
+  width: 70%;
   position: relative;
 }
 
@@ -214,9 +220,8 @@ h2{
 
 .list-offer li{
   list-style: none;
-  list-style-type: '\25BC';
   padding: 10px 0;
-  margin: 0 20px;
+  margin: 0 -20px;
   font-size: .9rem;
 }
 
@@ -475,6 +480,7 @@ h3{
   padding: 30px 0;
   justify-content: space-between;
   cursor: pointer;
+  min-width: 1000px;
 }
 
 .ask span{
@@ -488,9 +494,7 @@ h3{
 }
 
 .ask.middle{
-  border-width: 1px 0px 1px 0;
-  border-style: solid;
-  border-color: #D0D0D3;
+  border-block: 1px solid #D0D0D3;
 }
 
 .ask.bottom{
