@@ -353,8 +353,7 @@ h2{
 }
 
 .square{
-  width: calc(100% / 3);
-  height: 100%;
+  width: calc(100vw / 3);
   background-color: burlywood;
   border: 1px solid black;
 }
@@ -365,5 +364,5 @@ h2{
 
 .logos{
   width: 50%;
-  height: auto;
+  border: 1px solid gray;
 }
