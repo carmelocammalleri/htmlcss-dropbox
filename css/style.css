@@ -318,7 +318,7 @@ h2{
 .operations{
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 200px 0;
+  padding: 100px 0;
 }
 
 .card{
@@ -336,8 +336,34 @@ h2{
 }
 
 /* client */
+.client{
+  margin-bottom: 50px;
+}
 
 .client h2,
 .client span{
   padding: 40px 0;
+}
+
+/* business-partner */
+.business-partner{
+  width: 100%;
+  height: calc(100vw / 3);
+  background-color: aquamarine;  /* da levare */
+}
+
+.square{
+  width: calc(100% / 3);
+  height: 100%;
+  background-color: burlywood;
+  border: 1px solid black;
+}
+
+.square.brand{
+  flex-wrap: wrap;
+}
+
+.logos{
+  width: 50%;
+  height: auto;
 }
