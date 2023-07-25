@@ -30,7 +30,7 @@ body{
   display: flex;
 }
 
-/* header */
+/* ----------header---------- */
 header{
  position: fixed;
  left: 0;
@@ -86,11 +86,13 @@ header{
   color: black;
 }
 
-/* main */
+/* ----------/header---------- */
+
+/* ----------main---------- */
+
 main{
   padding: 40px 0;
 }
-
 
 /* jumbo */
 .jumbotron{
@@ -368,6 +370,7 @@ h2{
 
 .logos img{
   width: 100px;
+  filter: invert(100%) sepia(34%) saturate(837%) hue-rotate(197deg) brightness(108%) contrast(101%);
 }
 
 .designit{
@@ -471,3 +474,7 @@ h2{
 .ask.bottom{
   border-bottom: 1px solid #D0D0D3;
 }
+
+/* ----------/main---------- */
+
+/* ----------footer---------- */
