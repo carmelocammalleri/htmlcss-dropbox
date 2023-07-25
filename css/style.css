@@ -348,13 +348,11 @@ h2{
 /* business-partner */
 .business-partner{
   width: 100%;
-  height: calc(100vw / 3);
-  background-color: aquamarine;  /* da levare */
+  height: calc(100vw / 3); 
 }
 
 .square{
   width: calc(100vw / 3);
-  background-color: burlywood;
   border: 1px solid black;
 }
 
@@ -364,6 +362,12 @@ h2{
 
 .logos{
   width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.logos img{
+  width: 100px;
 }
 
 .designit{
@@ -396,4 +400,29 @@ h2{
 
 .clear{
   background-color: #FFD830;
+}
+
+.square.description{
+  padding: 40px;
+  overflow: auto;
+  background-color: #F5F5F5;
+}
+
+.square.description img{
+  width: 150px;
+}
+
+.line{
+  width: 40px;
+  border-bottom: 1px solid #D0D0D3;
+  margin: 30px 0;
+}
+
+.square.description p{
+  margin-bottom: 30px;
+  font-size: .9rem;
+}
+
+.cit{
+  font-size: .9rem;
 }
