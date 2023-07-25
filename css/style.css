@@ -426,3 +426,25 @@ h2{
 .cit{
   font-size: .9rem;
 }
+
+.promo{
+  width: 100%;
+  padding: 90px 0;
+  background-color: #B4D0E7;
+}
+
+.slogan{
+  justify-content: space-between;
+  align-items: start;
+  height: 100%;
+}
+
+.slogan h2{
+  width: 60%;
+  color: #61082B;
+}
+
+.slogan .btn.grey a{
+  border: none;
+  padding: 10px 50px;
+}
