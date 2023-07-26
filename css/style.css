@@ -200,9 +200,8 @@ h2{
 
 .column{
   border: 1px solid lightgrey;
-
+  padding-bottom: 20px;
   width: 30%;
-  height: auto;
   flex-direction: column;
 }
 
@@ -219,7 +218,8 @@ h2{
 
 .list-offer li{
   list-style: none;
-  padding: 10px 0;
+  padding: 10px 0px;
+  padding-right: 40px;
   margin: 0 -20px;
   font-size: .9rem;
 }
