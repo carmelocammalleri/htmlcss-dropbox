@@ -453,9 +453,12 @@ h3{
   background-color: #B4D0E7;
 }
 
+.promo h2{
+  margin-bottom: none;
+}
+
 .slogan{
   justify-content: space-between;
-  align-items: start;
 }
 
 .slogan h2{
@@ -466,6 +469,7 @@ h3{
 .slogan .btn.grey a{
   border: none;
   padding: 10px 50px;
+  margin-top: 10px;
 }
 
 /* ask */
@@ -514,6 +518,7 @@ h3{
 
 .ask:hover .fa-chevron-down{
   rotate: 180deg;
+  transition: 0.5s;
 }
 
 /* ----------/main---------- */
@@ -555,5 +560,39 @@ footer{
   color: #909090;
   margin-right: 5px;
   margin-bottom: 30px;
+}
+
+.menu-language{
+  cursor: pointer;
+  position: relative;
+}
+
+.menu-language:hover .answer{
+  display: block;
+  padding-top: 30px;
+}
+
+.menu-language:hover .fa-caret-up{
+  rotate: 180deg;
+  transition: 0.5s;
+}
+
+.answer.list{
+  list-style: none;
+  margin-left: 20px;
+  width: 100px;
+  height: auto;
+  position: absolute;
+  top: -118px;
+}
+
+.answer.list li{
+  color: #909090;
+  background-color: white;
+}
+
+.answer.list li:hover{
+  color: white;
+  background-color: #0061FF;
 }
 /* ----------/footer---------- */
