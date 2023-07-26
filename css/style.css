@@ -565,11 +565,11 @@ footer{
 .menu-language{
   cursor: pointer;
   position: relative;
+  width: 105px;
 }
 
-.menu-language:hover .answer{
+.menu-language:hover .answer.list{
   display: block;
-  padding-top: 30px;
 }
 
 .menu-language:hover .fa-caret-up{
@@ -581,9 +581,10 @@ footer{
   list-style: none;
   margin-left: 20px;
   width: 100px;
-  height: auto;
   position: absolute;
-  top: -118px;
+  top: -88px;
+  box-shadow: 2px 2px 3px grey;
+
 }
 
 .answer.list li{
